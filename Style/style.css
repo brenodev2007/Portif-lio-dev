@@ -9,6 +9,12 @@
   height: 100vh;
 }
 
+.profile-picture {
+  img {
+    width: 50%;
+  }
+}
+
 .profile-text {
   font: var(--subtitle);
   text-align: center;
