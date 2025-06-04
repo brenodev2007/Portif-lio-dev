@@ -58,19 +58,10 @@ main {
   width: 100%;
   height: auto;
   margin-top: 56px;
-  background-color: #16181d;
 }
 
 body {
   background-color: #16181d;
-}
-
-.grid {
-  display: grid;
-}
-
-.grid-col {
-  grid-auto-flow: column;
 }
 
 .container {
