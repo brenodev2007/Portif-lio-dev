@@ -12,7 +12,6 @@
   }
 }
 
-/* Telas pequenas - Celulares (até 768px) */
 @media (max-width: 768px) {
   #profile {
     height: auto;
@@ -39,6 +38,7 @@
   }
 
   .projects-grid {
+    display: flex;
     grid-template-columns: 1fr;
   }
 
@@ -47,7 +47,6 @@
   }
 }
 
-/* Telas muito pequenas - Celulares pequenos (até 480px) */
 @media (max-width: 480px) {
   .profile-picture img {
     width: 70%;
@@ -73,6 +72,11 @@
 
   .projects-text p {
     font: 400 16px/120% var(--font-inconsolata);
+  }
+
+  projects-grid {
+    display: flex;
+    grid-template-columns: 1fr;
   }
 
   .card img {
