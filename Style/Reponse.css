@@ -1,51 +1,81 @@
-@media (max-width: 850px) {
-  body {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
+  .profile-picture img {
+    width: 60%;
+  }
+
+  .profile-text h1 {
+    font: 800 40px/120% var(--font-Asap);
+  }
+}
+
+/* Telas pequenas - Celulares (até 768px) */
+@media (max-width: 768px) {
   #profile {
     height: auto;
-    padding: 40px 20px;
+    margin-top: 40px;
   }
 
-  .profile-picture {
-    margin-bottom: 32px;
+  .profile-picture img {
+    width: 50%;
   }
 
+  .profile-text h1 {
+    font: 800 32px/120% var(--font-Asap);
+  }
+
+  .profile-icons ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-icons button {
+    width: 100px;
+    height: 36px;
+    padding: 6px 12px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: 160px;
+  }
+}
+
+/* Telas muito pequenas - Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
   .profile-picture img {
     width: 70%;
   }
 
   .profile-text h1 {
-    font-size: 2rem;
-    margin-bottom: 16px;
+    font: 800 24px/120% var(--font-Asap);
   }
 
   .profile-text p {
-    font-size: 1rem;
-    margin-bottom: 6px;
-  }
-
-  .profile-icons ul {
-    flex-direction: column;
-    gap: 12px;
-    align-items: center;
+    font: var(--text-sm);
   }
 
   .profile-icons button {
-    width: 160px;
-    height: 45px;
+    width: 90px;
+    height: 34px;
+    padding: 4px 8px;
   }
 
-  .profile-icons img {
-    width: 20px;
-    height: 20px;
+  .projects-text h2 {
+    font: 800 20px/120% var(--font-Asap);
   }
 
-  .profile-icons p {
-    font-size: 1rem;
-    margin-left: 6px;
+  .projects-text p {
+    font: 400 16px/120% var(--font-inconsolata);
+  }
+
+  .card img {
+    height: 140px;
   }
 }
