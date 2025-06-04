@@ -1,1 +1,45 @@
+@media (max-width: 850px) {
+  #profile {
+    height: auto;
+    padding: 40px 20px;
+  }
 
+  .profile-picture {
+    margin-bottom: 32px;
+  }
+
+  .profile-picture img {
+    width: 70%; /* Aumenta a imagem no mobile */
+  }
+
+  .profile-text h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .profile-text p {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .profile-icons ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .profile-icons button {
+    width: 160px;
+    height: 45px;
+  }
+
+  .profile-icons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .profile-icons p {
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+}
