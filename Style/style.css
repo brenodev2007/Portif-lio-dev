@@ -100,3 +100,25 @@
 #JavaScript:hover {
   box-shadow: 0 0 10px var(--yellow);
 }
+
+/*Projects Section*/
+
+#projects {
+  margin-top: 70px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font: var(--subtitle);
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
+}
