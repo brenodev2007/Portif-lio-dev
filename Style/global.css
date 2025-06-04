@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Principal colors*/
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+
+  /*Base colors*/
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+
+  /*Fonts*/
+
+  --font-Asap: "Asap", sans-serif;
+  --font-inconsolata: "Inconsolata", monospace;
+  --font-MavenPro: "Maven Pro", sans-serif;
+
+  --title-lg: 800 56px/120% var(--font-Asap);
+  --title-md: 800 24px/120% var(--font-Asap);
+  --title-sm: 800 16px/120% var(--font-Asap);
+
+  --subtitle: 400 20px/120% var(--font-inconsolata);
+
+  --text-md: 400 16px/140% var(--font-MavenPro);
+  --text-sm: 400 14px/140% var(--font-MavenPro);
+}
