@@ -51,5 +51,11 @@ body {
 }
 
 .grid-col {
-  grid-auto-flow: row;
+  grid-auto-flow: column;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
 }
