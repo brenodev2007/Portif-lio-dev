@@ -6,10 +6,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 .profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
   img {
     width: 50%;
   }
