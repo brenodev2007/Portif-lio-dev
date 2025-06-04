@@ -40,7 +40,7 @@
   --text-sm: 400 14px/140% var(--font-MavenPro);
 }
 
-body {
+header {
   background-image: url("../Assets/Background_Intro.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +52,17 @@ header {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 56px;
+  background-color: #16181d;
+}
+
+body {
+  background-color: #16181d;
 }
 
 .grid {

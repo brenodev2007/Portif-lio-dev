@@ -101,15 +101,25 @@
   box-shadow: 0 0 10px var(--yellow);
 }
 
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
 /*Projects Section*/
 
 #projects {
   margin-top: 70px;
-  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
 
+.projects-text {
+  margin-bottom: 54px;
   p {
     font: var(--subtitle);
     color: var(--red);
@@ -120,5 +130,23 @@
     font: var(--title-md);
     color: var(--gray-600);
     margin-bottom: 56px;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  width: 100%;
+}
+
+.card {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 24px;
+    justify-items: center;
+    width: 100%;
   }
 }

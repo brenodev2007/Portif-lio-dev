@@ -1,4 +1,10 @@
 @media (max-width: 850px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
   #profile {
     height: auto;
     padding: 40px 20px;
