@@ -68,4 +68,5 @@ body {
   max-width: 1200px;
   padding-inline: 32px;
   margin-inline: auto;
+  min-width: 320px;
 }

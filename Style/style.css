@@ -137,6 +137,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+
 .card {
   background-color: var(--gray-300);
   width: 100%;
@@ -173,4 +174,22 @@
 .card-text p {
   font: var(--title-sm);
   color: var(--gray-500);
+}
+
+/*Services section */
+
+.services-text {
+  margin-top: 88px;
+  text-align: center;
+  p {
+    font: var(--subtitle);
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
 }
