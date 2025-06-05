@@ -113,6 +113,7 @@
 #projects {
   margin-top: 70px;
   width: 100%;
+  padding: 20px;
 }
 
 .projects-text {
@@ -178,11 +179,18 @@
 
 /*Services section */
 
+#Services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
 .services-text {
-  margin-top: 88px;
   text-align: center;
   p {
-    padding: 88px 0 0 0;
     font: var(--subtitle);
     color: var(--red);
     margin-bottom: 8px;
@@ -199,9 +207,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 56px;
+  margin-top: 26px;
   gap: 24px;
-  height: 300px;
+  height: auto;
   .card-services {
     border: 1px solid var(--gray-400);
     .card-image {

@@ -45,30 +45,50 @@
 
   .cards-gerais-services {
     flex-direction: column;
-    align-items: center;
+    gap: 32px;
+  }
+
+  #Services {
+    height: 80vh;
+    display: flex;
   }
 
   .card-services {
-    width: 90%;
+    width: 80%;
   }
 
-  .contact .contato-links button {
-    width: 90%;
-    height: 60px;
+  .services-text {
+    margin-top: 64px;
+    margin-bottom: 32px;
   }
 
-  .contact {
-    margin-top: 96px;
-    margin-bottom: 150px;
+  .services-text p {
+    padding: 64px 0 0 0;
+    font-size: 14px;
   }
 
-  .contact .contato-text h2 {
-    font: var(--title-sm);
+  .services-text h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
   }
+}
 
-  .contact .contato-text p {
-    font: var(--text-sm);
-  }
+.contact .contato-links button {
+  width: 90%;
+  height: 60px;
+}
+
+.contact {
+  margin-top: 96px;
+  margin-bottom: 150px;
+}
+
+.contact .contato-text h2 {
+  font: var(--title-sm);
+}
+
+.contact .contato-text p {
+  font: var(--text-sm);
 }
 
 @media (max-width: 480px) {
@@ -110,28 +130,29 @@
 
   .cards-gerais-services {
     flex-direction: column;
-    align-items: center;
-    gap: 16px;
+    gap: 24px;
   }
 
   .card-services {
-    width: 95%;
-  }
-
-  .card-text h3 {
-    font-size: 18px;
-  }
-
-  .card-text p {
-    font-size: 14px;
+    width: 90%;
+    padding: 16px;
   }
 
   .card-image img {
     width: 80px;
-    height: auto;
   }
 
-  .contact .contato-links button {
+  .services-text {
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+
+  .services-text p {
+    padding: 28px 0 0 0;
+    font-size: 14px;
+  }
+
+  .contato-links button {
     width: 100%;
     height: 56px;
     flex-direction: row;
