@@ -42,6 +42,15 @@
   .card img {
     height: 160px;
   }
+
+  .cards-gerais-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-services {
+    width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -79,5 +88,28 @@
 
   .card img {
     height: 140px;
+  }
+
+  cards-gerais-services {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .card-services {
+    width: 95%;
+  }
+
+  .card-text h3 {
+    font-size: 18px;
+  }
+
+  .card-text p {
+    font-size: 14px;
+  }
+
+  .card-image img {
+    width: 80px;
+    height: auto;
   }
 }

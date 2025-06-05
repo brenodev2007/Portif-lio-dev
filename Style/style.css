@@ -201,6 +201,7 @@
   justify-content: center;
   margin-top: 56px;
   gap: 24px;
+  height: 300px;
   .card-services {
     border: 1px solid var(--gray-400);
     .card-image {
@@ -214,5 +215,49 @@
 
   .card-services:hover {
     box-shadow: 0 0 10px var(--gray-500);
+  }
+}
+
+/*Contact section */
+
+#contact {
+  margin-top: 128px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .contato-text {
+    text-align: center;
+  }
+  .contato-text span {
+    font: var(--subtitle);
+    color: var(--purple);
+    margin-bottom: 8px;
+  }
+
+  .contato-text h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin: 8px;
+  }
+
+  .contato-text p {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+
+  .contato-links {
+    margin-top: 48px;
+
+    ul {
+      list-style: none;
+    }
+
+    ul li a {
+      color: var(--gray-500);
+      font-size: 28px;
+    }
   }
 }
