@@ -38,8 +38,9 @@
   }
 
   .projects-grid {
-    display: flex;
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 24px;
   }
 
   .card img {
@@ -76,7 +77,8 @@
 
   projects-grid {
     display: flex;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 
   .card img {
