@@ -194,3 +194,25 @@
     margin-bottom: 56px;
   }
 }
+
+.cards-gerais-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+  gap: 24px;
+  .card-services {
+    border: 1px solid var(--gray-400);
+    .card-image {
+      width: 100%;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      display: flex;
+    }
+  }
+
+  .card-services:hover {
+    box-shadow: 0 0 10px var(--gray-500);
+  }
+}
