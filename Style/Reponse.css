@@ -51,6 +51,24 @@
   .card-services {
     width: 90%;
   }
+
+  .contact .contato-links button {
+    width: 90%;
+    height: 60px;
+  }
+
+  .contact {
+    margin-top: 96px;
+    margin-bottom: 150px;
+  }
+
+  .contact .contato-text h2 {
+    font: var(--title-sm);
+  }
+
+  .contact .contato-text p {
+    font: var(--text-sm);
+  }
 }
 
 @media (max-width: 480px) {
@@ -90,7 +108,7 @@
     height: 140px;
   }
 
-  cards-gerais-services {
+  .cards-gerais-services {
     flex-direction: column;
     align-items: center;
     gap: 16px;
@@ -111,5 +129,43 @@
   .card-image img {
     width: 80px;
     height: auto;
+  }
+
+  .contact .contato-links button {
+    width: 100%;
+    height: 56px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+
+  .contact {
+    margin-top: 64px;
+    margin-bottom: 100px;
+  }
+
+  .contact .contato-text span {
+    font: var(--subtitle-sm);
+  }
+
+  .contact .contato-text h2 {
+    font: var(--title-xs);
+  }
+
+  .contact .contato-text p {
+    font: var(--text-xs);
+  }
+
+  .contact .contato-links {
+    margin-top: 32px;
+  }
+
+  .contact .contato-links button ion-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contact .contato-links button img {
+    width: 24px;
   }
 }

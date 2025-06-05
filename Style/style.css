@@ -221,7 +221,11 @@
 /*Contact section */
 
 #contact {
+  background-image: url(../Assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 128px;
+  margin-bottom: 200px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -250,14 +254,39 @@
 
   .contato-links {
     margin-top: 48px;
+    button {
+      width: 400px;
+      height: 68px;
+      margin-top: 16px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: none;
+      background-color: var(--gray-300);
 
-    ul {
-      list-style: none;
+      ion-icon {
+        width: 28px;
+        height: 28px;
+        color: var(--gray-400);
+      }
+
+      p {
+        font: var(--text-md);
+        color: var(--gray-500);
+      }
+
+      img {
+        width: 28px;
+      }
     }
 
-    ul li a {
-      color: var(--gray-500);
-      font-size: 28px;
+    a {
+      text-decoration: none;
+    }
+
+    ul li {
+      list-style: none;
     }
   }
 }
