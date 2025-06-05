@@ -182,6 +182,7 @@
   margin-top: 88px;
   text-align: center;
   p {
+    padding: 88px 0 0 0;
     font: var(--subtitle);
     color: var(--red);
     margin-bottom: 8px;

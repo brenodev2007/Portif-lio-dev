@@ -70,3 +70,7 @@ body {
   margin-inline: auto;
   min-width: 320px;
 }
+
+.bg-dark {
+  background-color: #0d0e11 !important;
+}
